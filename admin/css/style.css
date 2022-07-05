@@ -1,0 +1,84 @@
+body{
+	margin: 0;
+	padding: 10;
+	font-family: sans-serif;
+}
+
+nav{
+	width: 100%;
+	opacity: .8;
+}
+
+ul{
+	width: 100%;
+	margin: 0 auto;
+	padding: 10; 
+}
+
+ul li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px; 
+	
+}
+
+ul li a:hover{
+	
+	color:   #ffffff  ;
+	font-size : 26px;
+	
+}
+
+ul li a{
+	color:     #ffffff;
+	font-weight : bold;
+	text-decoration: none;
+	font-family: 'Alegreya Sans SC';font-size: 28px;
+}
+
+.toggle
+{
+	width: 100%;
+	padding: 15px 30px;
+	background: #001f44;
+	text-align: right;
+	box-sizing: border-box;
+	color: #000;
+	font-size: 30px;
+	display: inline-block;
+}
+
+@media (max-width: 768px)
+{
+	.toggle{
+		display: block;
+		}
+
+
+	
+	ul{
+			width: 100%;
+			display: none;
+
+	}
+
+	ul li{
+		float: left;
+		display: block;
+		text-align: center;
+	}
+
+	.active{
+		display: block;
+	}
+
+}
+
+.divider{
+	background-color: #064084;
+	height: 5px;
+}
+
+
+
+ 
