@@ -1,0 +1,21 @@
+.modal
+        {
+            width: 80%;
+            height: 50%;
+            background-color: blue;
+            display: none;
+        }
+        .modalcontent
+        {
+            width: 20%;
+            border: 2px solid black;
+            padding: 10px;
+            z-index: -1;
+            margin-left: 800px;
+            margin-top: 20px;
+            top:0;
+            background-color: red;
+            background-color: rgba(0,0,0,.5);
+            display: block;
+
+        }

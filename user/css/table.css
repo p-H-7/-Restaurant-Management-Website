@@ -1,0 +1,38 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 95%;
+    border: 1px solid #ddd;
+	opacity: .7;
+	background: black;
+    margin: 2.3%;
+
+}
+
+th {
+    border: none;
+    text-align: center;
+    padding: 8px;
+    background-color: black;
+	font-weight: bold;
+	
+
+}
+td {
+    border: none;
+    text-align: center;
+    padding: 8px;
+    color: white;
+	
+	
+}
+a{
+	color:white;
+	font-weight: bold;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    text-shadow: 2px 2px #FFFFFF;
+}
